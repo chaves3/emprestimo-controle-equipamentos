@@ -1,0 +1,33 @@
+center{
+
+	padding-top: 60px;
+
+}
+
+.butao{
+
+	background: orange;
+	height: 35px;
+	width: 260px;
+	color: white;
+	padding-top: 100px;
+}
+
+	
+
+
+.centro{
+
+    font-size: 20px;
+	margin-left: 50px;
+	padding-top: 20px;
+	width: 200px;
+	height: 100px;
+
+	
+}
+
+body{
+
+	background: rgb(245,245,245);
+}
