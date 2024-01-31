@@ -33,11 +33,11 @@ try {
     $mail->SMTPSecure = "tls";
     //echo 'SMTP secure...<br/>';
     $mail->SMTPAuth = true;
-    $mail->Username = 'laboratoriodevalidacao@gmail.com';
-    $mail->Password = 'kzwlyeucmvzpgkun';
+    $mail->Username = '';
+    $mail->Password = '';
     $mail->Port = 587;
     $mail->CharSet = "UTF-8";
-    $mail->setFrom('laboratoriodevalidacao@gmail.com');
+    $mail->setFrom('');
     $mail->addAddress($email_responsavel);
     $mail->addAddress($email_destinado);
     $mail->SMTPOptions = array(
