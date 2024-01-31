@@ -30,13 +30,13 @@ try {
     $mail->SMTPSecure = "tls";
     //echo 'SMTP secure...<br/>';
     $mail->SMTPAuth = true;
-    $mail->Username = 'laboratoriodevalidacao@gmail.com';
-    $mail->Password = 'kzwlyeucmvzpgkun';
+    $mail->Username = '';
+    $mail->Password = '';
     $mail->Port = 587;
     $mail->CharSet = "UTF-8";
-    $mail->setFrom('laboratoriodevalidacao@gmail.com');
-    $mail->addAddress('matheus.chaves.da.silva@aptiv.com');
-    //$mail->addAddress('suzelaine.dos.santos@aptiv.com');
+    $mail->setFrom('');
+    $mail->addAddress('');
+    //$mail->addAddress('');
     $mail->SMTPOptions = array(
     'ssl' => array(
     'verify_peer' => false,
